@@ -10,4 +10,7 @@
 
 @interface Contactlist : NSObject
 
+@property NSMutableArray *listContacts;
+
+
 @end

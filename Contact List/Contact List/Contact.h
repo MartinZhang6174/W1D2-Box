@@ -10,4 +10,12 @@
 
 @interface Contact : NSObject
 
+@property NSString* name;
+
+@property NSString* email;
+
+@property NSMutableArray *contactsArray;
+
+-(id) initContact:(NSString *)name email:(NSString*)email;
+
 @end

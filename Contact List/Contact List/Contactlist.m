@@ -8,6 +8,22 @@
 
 #import "Contactlist.h"
 
+@interface Contactlist()
+
+@end
+
 @implementation Contactlist
+
+-(id) init {
+
+    self = [super init];
+    
+    if(self) {
+    
+        self.listContacts = [[NSMutableArray alloc]init];
+    
+    }
+
+}
 
 @end
